@@ -1,0 +1,14 @@
+Source: device-chassis
+Maintainer: Giuseppe Corti (r3vn) <giuseppe.corti@protonmail.com>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/hybris-mobian/device-chassis
+Vcs-Git: https://github.com/hybris-mobian-releng/device-chassis.git
+
+Package: device-chassis-handset
+Architecture: all
+Provides: device-chassis
+Depends: ${misc:Depends}
+Description: Phone form factor settings for hostnamed
