@@ -2,7 +2,7 @@ Source: device-chassis
 Maintainer: Giuseppe Corti (r3vn) <giuseppe.corti@protonmail.com>
 Section: misc
 Priority: optional
-Build-Depends: debhelper (>= 10)
+Build-Depends: debhelper (>= 13)
 Standards-Version: 4.5.0.3
 Vcs-Browser: https://github.com/droidian/device-chassis
 Vcs-Git: https://github.com/droidian/device-chassis.git
@@ -12,3 +12,15 @@ Architecture: all
 Provides: device-chassis
 Depends: ${misc:Depends}
 Description: Phone form factor settings for hostnamed
+
+Package: device-chassis-tablet
+Architecture: all
+Provides: device-chassis
+Depends: ${misc:Depends}
+Description: Tablet form factor settings for hostnamed
+
+Package: device-chassis-desktop
+Architecture: all
+Provides: device-chassis
+Depends: ${misc:Depends}
+Description: Desktop form factor settings for hostnamed
