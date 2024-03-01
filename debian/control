@@ -10,17 +10,20 @@ Vcs-Git: https://github.com/droidian/device-chassis.git
 Package: device-chassis-handset
 Architecture: all
 Provides: device-chassis
+Conflicts: device-chassis
 Depends: ${misc:Depends}
 Description: Phone form factor settings for hostnamed
 
 Package: device-chassis-tablet
 Architecture: all
 Provides: device-chassis
+Conflicts: device-chassis
 Depends: ${misc:Depends}
 Description: Tablet form factor settings for hostnamed
 
 Package: device-chassis-desktop
 Architecture: all
 Provides: device-chassis
+Conflicts: device-chassis
 Depends: ${misc:Depends}
 Description: Desktop form factor settings for hostnamed
